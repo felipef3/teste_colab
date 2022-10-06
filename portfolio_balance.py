@@ -22,4 +22,5 @@ class PortifolioBalance:
     def calcular_aporte(self,valor_aporte):
         df = self.show()
         df['aporte'] = df['yield_relativo'] * valor_aporte
+        print("Alteração Aqui E aqui")
         return df
